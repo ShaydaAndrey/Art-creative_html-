@@ -1,0 +1,31 @@
+.jcarousel-skin-default{position:relative;}
+
+.jcarousel-skin-default .jcarousel {
+    position: relative;
+    overflow: hidden;
+	height:181px;
+}
+
+.jcarousel-skin-default ul {
+    width: 20000px;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel-skin-default li {
+    float: left;
+    margin: 0 22px 0 0;
+    padding: 0;
+}
+
+.jcarousel-skin-default li:before{display:none;background:none;}
+
+
+.jcarousel-skin-default .car_btn{display:block;position:absolute;width:14px;height:22px;background:url(../img/carousel_arws.png) 0 0 no-repeat;top:-40px;}
+.jcarousel-skin-default .car_btn:focus{outline:none;}
+.jcarousel-skin-default .car_btn.lbtn{right:30px;}
+.jcarousel-skin-default .car_btn.rbtn{right:2px;background-position:-14px 0;}
+.jcarousel-skin-default .car_btn.lbtn:hover{background-position:0 -22px;}
+.jcarousel-skin-default .car_btn.rbtn:hover{background-position:-14px -22px;}
